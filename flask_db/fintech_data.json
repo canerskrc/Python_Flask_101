@@ -1,0 +1,162 @@
+[
+  {
+    "transaction_id": "TRX-001",
+    "customer_id": "CUST-1001",
+    "transaction_date": "2023-01-15",
+    "transaction_type": "PAYMENT",
+    "amount": 150.75,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-002",
+    "customer_id": "CUST-1002",
+    "transaction_date": "2023-01-16",
+    "transaction_type": "TRANSFER",
+    "amount": 2500.00,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-003",
+    "customer_id": "CUST-1003",
+    "transaction_date": "2023-01-17",
+    "transaction_type": "WITHDRAWAL",
+    "amount": 750.25,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-004",
+    "customer_id": "CUST-1004",
+    "transaction_date": "2023-01-18",
+    "transaction_type": "DEPOSIT",
+    "amount": 1000.00,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-005",
+    "customer_id": "CUST-1005",
+    "transaction_date": "2023-01-19",
+    "transaction_type": "LOAN_PAYMENT",
+    "amount": 450.50,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-006",
+    "customer_id": "CUST-1006",
+    "transaction_date": "2023-01-20",
+    "transaction_type": "TRANSFER",
+    "amount": 3200.75,
+    "status": "FAILED"
+  },
+  {
+    "transaction_id": "TRX-007",
+    "customer_id": "CUST-1007",
+    "transaction_date": "2023-01-21",
+    "transaction_type": "PAYMENT",
+    "amount": 89.99,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-008",
+    "customer_id": "CUST-1008",
+    "transaction_date": "2023-01-22",
+    "transaction_type": "WITHDRAWAL",
+    "amount": 500.00,
+    "status": "PENDING"
+  },
+  {
+    "transaction_id": "TRX-009",
+    "customer_id": "CUST-1009",
+    "transaction_date": "2023-01-23",
+    "transaction_type": "DEPOSIT",
+    "amount": 1500.50,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-010",
+    "customer_id": "CUST-1010",
+    "transaction_date": "2023-01-24",
+    "transaction_type": "CRYPTO_PURCHASE",
+    "amount": 2000.00,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-011",
+    "customer_id": "CUST-1011",
+    "transaction_date": "2023-01-25",
+    "transaction_type": "INVESTMENT",
+    "amount": 5000.00,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-012",
+    "customer_id": "CUST-1012",
+    "transaction_date": "2023-01-26",
+    "transaction_type": "TRANSFER",
+    "amount": 350.25,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-013",
+    "customer_id": "CUST-1013",
+    "transaction_date": "2023-01-27",
+    "transaction_type": "LOAN_PAYMENT",
+    "amount": 725.50,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-014",
+    "customer_id": "CUST-1014",
+    "transaction_date": "2023-01-28",
+    "transaction_type": "PAYMENT",
+    "amount": 125.99,
+    "status": "FAILED"
+  },
+  {
+    "transaction_id": "TRX-015",
+    "customer_id": "CUST-1015",
+    "transaction_date": "2023-01-29",
+    "transaction_type": "CRYPTO_PURCHASE",
+    "amount": 1250.00,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-016",
+    "customer_id": "CUST-1016",
+    "transaction_date": "2023-01-30",
+    "transaction_type": "WITHDRAWAL",
+    "amount": 300.00,
+    "status": "PENDING"
+  },
+  {
+    "transaction_id": "TRX-017",
+    "customer_id": "CUST-1017",
+    "transaction_date": "2023-01-31",
+    "transaction_type": "INVESTMENT",
+    "amount": 3000.00,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-018",
+    "customer_id": "CUST-1018",
+    "transaction_date": "2023-02-01",
+    "transaction_type": "DEPOSIT",
+    "amount": 950.75,
+    "status": "COMPLETED"
+  },
+  {
+    "transaction_id": "TRX-019",
+    "customer_id": "CUST-1019",
+    "transaction_date": "2023-02-02",
+    "transaction_type": "TRANSFER",
+    "amount": 1800.50,
+    "status": "FAILED"
+  },
+  {
+    "transaction_id": "TRX-020",
+    "customer_id": "CUST-1020",
+    "transaction_date": "2023-02-03",
+    "transaction_type": "PAYMENT",
+    "amount": 275.25,
+    "status": "COMPLETED"
+  }
+] 
