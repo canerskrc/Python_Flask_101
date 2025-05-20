@@ -1,0 +1,1 @@
+from app.models.fintech_data import FintechData

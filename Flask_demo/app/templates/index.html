@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12 text-center mb-4">
+        <h1>Fintech Data Dashboard</h1>
+        <p class="lead">A simple application for fintech transaction data management and analysis</p>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Data Management</h5>
+                <p class="card-text">Import and view fintech transaction data</p>
+                <a href="{{ url_for('data.index') }}" class="btn btn-primary">View Data</a>
+                <a href="{{ url_for('data.import_data') }}" class="btn btn-outline-secondary">Import Data</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Analytics Dashboard</h5>
+                <p class="card-text">View analytics and insights on your fintech data</p>
+                <a href="{{ url_for('analytics.index') }}" class="btn btn-primary">View Analytics</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">About</h5>
+                <p class="card-text">This application allows you to import fintech transaction data from a JSON file and analyze it.</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Built with Flask</li>
+                    <li class="list-group-item">SQLAlchemy ORM</li>
+                    <li class="list-group-item">Bootstrap 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

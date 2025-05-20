@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>Import Fintech Data</h1>
+        <p class="lead mb-4">Import fintech transaction data from the JSON file</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title mb-3">Import Data</h5>
+                <p>This will import data from the <code>fintech_data.json</code> file located in the root directory of the application.</p>
+                <p>The import process will:</p>
+                <ul>
+                    <li>Clear any existing data in the database</li>
+                    <li>Import all transaction data from the JSON file</li>
+                    <li>Redirect you to the data view page when complete</li>
+                </ul>
+                
+                <div class="alert alert-info">
+                    <strong>Note:</strong> Make sure the JSON file exists and has valid data before importing.
+                </div>
+                
+                <form method="POST">
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg">Import Data</button>
+                        <a href="{{ url_for('data.index') }}" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
